@@ -1,0 +1,8 @@
+,eventType,inoutType,inoutQuantity,inoutUnit,inoutUnit_desc,clinicalSigns,eventDescription,date
+94,INPUT,Queen excluder,0.8,G167A,Kilogram,No clinical signs,,2019-06-28
+404,INPUT,Sucrose,14.7,G167A,Kilogram,No clinical signs,,2019-08-11
+795,INPUT,Super + 10 frames,2.3,G167A,Kilogram,No clinical signs,,2019-05-24
+807,INPUT,Sucrose,8.3,G167A,Kilogram,No clinical signs,,2019-08-20
+1602,INPUT,Foundation comb,2.6,G167A,Kilogram,No clinical signs,,2019-05-24
+214,OUTPUT,Brood comb,0.031,G167A,Kilogram,No clinical signs,,2019-07-17
+1754,OUTPUT,Brood comb,0.231,G167A,Kilogram,No clinical signs,,2019-06-12
