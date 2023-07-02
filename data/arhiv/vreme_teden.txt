@@ -1,0 +1,9 @@
+dan,povp. dnevna T [°C],količina padavin [mm],višina snežne odeje [cm],nevihta,toča,viharni veter
+2023-06-05,16.2,5.2,0,ne,ne,ne
+2023-06-06,18.2,20.7,0,ne,ne,ne
+2023-06-07,19.6,5.2,0,da,ne,ne
+2023-06-08,17.3,0,0,da,da,ne
+2023-06-09,20.2,15.7,0,da,ne,ne
+2023-06-10,19.5,0.2,0,ne,ne,ne
+2023-06-11,20,17,0,da,ne,ne
+2023-06-12,19.2,8.2,0,ne,ne,ne

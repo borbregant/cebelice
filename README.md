@@ -2,13 +2,14 @@
 
 ## TODO (short goal):
 
-- [ ] Izbira ustreznih že pridobljenih datasetov (recimo še enega, ki ima teden meritev notri)
-- [ ] Glede na zgornjo točko ustrezen izbor vremenskega dataseta
+- [X] Izbira ustreznih že pridobljenih datasetov (recimo še enega, ki ima teden meritev notri)
+- [X] Glede na zgornjo točko ustrezen izbor vremenskega dataseta
 - [ ] Združevanje zgornjega
+- [ ] Vizualizacija kar imamo
 
 ## TODO (long goal):
 
-- [ ] Data collection
+- [X] Data collection
 - [X] Data preprocessing
   - [ ] Merge tables by time series (weight, humidity, temperature, ...)
   - [ ] Remove data with high deviation and replace it with predicted regression
