@@ -2,10 +2,13 @@
 
 ## TODO (short goal):
 
-- [X] Izbira ustreznih že pridobljenih datasetov (recimo še enega, ki ima teden meritev notri)
-- [X] Glede na zgornjo točko ustrezen izbor vremenskega dataseta
+- [ ] Izbira ustreznih že pridobljenih datasetov
+- [ ] Glede na zgornjo točko ustrezen izbor vremenskega dataseta
 - [ ] Združevanje zgornjega
 - [ ] Vizualizacija kar imamo
+- [ ] Bug v shranjevanju ociscene datoteke oz. branju le te
+- [ ] Outlier removal
+
 
 ## TODO (long goal):
 
