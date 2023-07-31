@@ -1,22 +1,28 @@
-# Cebelice
+# Čebelice
 
-## TODO (short goal):
+## [Koncept pdf](https://github.com/borbregant/cebelice/issues/1)
 
-- [ ] Izbira ustreznih že pridobljenih datasetov
-- [ ] Glede na zgornjo točko ustrezen izbor vremenskega dataseta
-- [ ] Združevanje zgornjega
-- [ ] Vizualizacija kar imamo
-- [ ] Bug v shranjevanju ociscene datoteke oz. branju le te
-- [ ] Outlier removal
+## TODO
 
+- [ ] vlaga_temperatura not working properly
 
-## TODO (long goal):
+## Repo structure
 
 - [X] Data collection
-- [X] Data preprocessing
-  - [ ] Merge tables by time series (weight, humidity, temperature, ...)
-  - [ ] Remove data with high deviation and replace it with predicted regression
-  - [ ] Label time series with events (rain, beekeeper adds something to the hive etc.)
-- [ ] Predicition model
-  - [ ] Fit data to predicted theoretical weigth (exclude weight of bees in the hive, take labels into account)
-- [ ] Testing
+  - [X] [Beehive data (weight and diary)](https://zenodo.org/record/4953762)
+  - [X] [Weather data](http://rp5.am/Weather_archive_in_Flakkebjerg)
+
+***uvoz.ipynb*** uvozi zgornje datasete in jih spravi v pickle format
+
+- [X] Data cleaning (folder *ciscenje*)
+
+Skripte sprejmejo delno očiščene podatke in jih spet spravijo v format pickle
+
+- ***cebelarski_dnevnik.ipynb***
+  Sprejme dataset s težo panja in čebelarski dnevnik ter prilagodi težo glede na spremembe
+- ***outlier_removal.ipynb***
+  Sprejme dataset s podatki o teži panja in odstrani osamelce (napaka v meritvi, hitra zunanja sprememba, ...)
+- ***padavine_sneg.ipynb***
+  Work in progress
+- ***vlaga_temperatura.ipynb***
+  Sprejme dataset s težo panja in notranjo vlago in temperaturo in izračuno suho težo panja. Podatki so slabi (drugi viri ne iz panja ali pa je koda slaba)
